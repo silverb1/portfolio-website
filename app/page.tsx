@@ -11,7 +11,7 @@ export default function Portfolio() {
 
   const projects = [
     {
-      name: "brennan-silver.netlify.app",
+      name: "brennansilver.netlify.app",
       languages: "React · TypeScript · Next.js",
       description: "The website that you're looking at right now.",
       github: "https://github.com/silverb1/portfolio-website",
