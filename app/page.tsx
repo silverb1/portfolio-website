@@ -76,7 +76,7 @@ export default function Portfolio() {
               isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            Crafting elegant digital experiences with modern web technologies. Passionate about clean code, performance
+            I'm a 19 year old developer from Colorado who enjoys gaming, music, and experimenting with new design techniques. I take a very detail-oriented approach, and I'm passionate about clean code, performance
             optimization, and user-centered design.
           </p>
 
