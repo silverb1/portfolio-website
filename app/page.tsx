@@ -24,7 +24,7 @@ export default function Portfolio() {
     },
     {
       name: "Discord Bot Multitool",
-      languages: "JavaScript · Discord.js",
+      languages: "JavaScript · Discord.js · Node.js",
       description: "Work-in-progress personal Discord bot with various utilities including music playback and fun commands.",
       github: "https://github.com/silverb1/discord-bot",
     },
