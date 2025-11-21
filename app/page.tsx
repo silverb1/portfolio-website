@@ -11,7 +11,7 @@ export default function Portfolio() {
 
   const projects = [
     {
-      name: "brennansilver.netlify.app",
+      name: "Portfolio Website",
       languages: "React · TypeScript · Next.js",
       description: "The website that you're looking at right now.",
       github: "https://github.com/silverb1/portfolio-website",
@@ -58,12 +58,12 @@ export default function Portfolio() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-screen flex items-center p-8 md:p-12">
+      <div className="relative z-10 h-screen flex items-center p-8 md:p-30">
         {/* Left column */}
-        <div className="w-1/2 flex flex-col justify-center pr-8">
+        <div className="w-2/3 flex flex-col justify-center pr-8">
           {/* Name */}
           <h1
-            className={`text-5xl md:text-6xl font-bold text-primary mb-2 transition-all duration-1000 transform ${
+            className={`text-6xl md:text-7xl font-bold text-primary mb-2 transition-all duration-1000 transform ${
               isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
@@ -79,6 +79,10 @@ export default function Portfolio() {
             I'm a 19 year old developer from Colorado who enjoys gaming, music, and experimenting with new design techniques. I take a very detail-oriented approach, and I'm passionate about clean code, performance
             optimization, and user-centered design.
           </p>
+
+          {/* <h2 className="text-xl font-semibold text-primary mb-2 group-hover:text-accent transition-colors">
+            Proficient in:
+          </h2> */}
 
           {/* Skills */}
           <div
@@ -98,7 +102,14 @@ export default function Portfolio() {
         </div>
 
         {/* Right column - Projects */}
-        <div className="w-1/2 flex flex-col gap-6 pl-8">
+        <div className="w-1/2 flex flex-col gap-4 pl-4">
+          <h2
+            className={`text-3xl md:text-3xl font-bold text-primary mb-2 transition-all duration-1000 transform ${
+              isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            }`}
+          >
+            Projects
+          </h2>
           {projects.map((project, index) => (
             <a
               key={index}
