@@ -22,6 +22,12 @@ export default function Portfolio() {
       description: "Gift wishlist application frontend using React and Next.js.",
       github: "https://github.com/silverb1/wishlist-app",
     },
+    {
+      name: "Discord Bot Multitool",
+      languages: "JavaScript · Discord.js",
+      description: "Work-in-progress personal Discord bot with various utilities including music playback and fun commands.",
+      github: "https://github.com/silverb1/discord-bot",
+    },
   ]
 
   return (
